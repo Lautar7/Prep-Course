@@ -2,19 +2,39 @@ h1 {
     color: blue;
  }
 
- img {
+img {
      width: 400px;
+     
  }
  
- #thirdDiv {
+#thirdDiv {
      height: 600px;
      width: 500px;
      background-color: lightblue;
      padding: 50px;
      border: 5px darkcyan solid;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     left: 350px;
+     top: 20px;
  }
 
- #spanId {
-     margin: 50px;
+#spanId {
+     margin: 20px;
      font-size: 18px;
  }
+
+body {
+    background-image: url("https://i.pinimg.com/originals/49/06/6c/49066cd709a43dcc797134a62b6eb91f.jpg");
+    color: #FFFFFF
+ }
+
+.divclass {
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
